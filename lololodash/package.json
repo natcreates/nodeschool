@@ -1,0 +1,16 @@
+{
+  "name": "lololodashAnswers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.6.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint *.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
