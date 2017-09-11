@@ -1,0 +1,11 @@
+npm version - updates version and commits to git if there's a repo field in the package. 
+npm won't let you update without updating the version number. see semger versions
+npm init - creates and edits package.json
+you should have a test with your module that has some js test in it
+readme.md should be included and added to your package json
+npm publish to share with the workld
+npm dist-tag add <pkg name>@<version number> [tag] controls distributions. By default users always download the latest version. Adding a tag allows you to have differently labelled versions. E.g. a 'beta' version. See npm dist-tag help. Useful when publishing security fixes for legacy versions/times when you don't want what you publish to be tagged the latest. Every publish has 'latest' by defult and that's the one you can't remove
+npm ls will tell you current package and version
+npm outdated to detect outdated dependencies
+npm update will update all dependencies to the versions allowed in your package
+npm rm will remove all dependencies, with --save flag will update package
